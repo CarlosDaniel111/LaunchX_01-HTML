@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelaxia</title>
+</head>
+<body>
+    <header>
+        <img src="/img/Logo_Pastelaxia.png" alt="Logo_Pastelaxia" width="200" height="200">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/pedido.html">Hacer pedido</a></li>
+            <li><a href="/pedidos.html">Ver pedidos</a></li>
+        </ul>
+    </nav>
+    <h1>Haz tu pedido</h1>
+    <form action="">
+        <h3>Datos del usuario</h3>
+        <label for="nombre">Nombre</label><br>
+        <input type="text" name="nombre" id="nombre" placeholder="Tu nombre"><br>
+        <label for="correo">Correo Electrónico</label><br>
+        <input type="email" name="correo" id="correo" placeholder="Tu correo"><br>
+        <label for="tel">Teléfono</label><br>
+        <input type="tel" name="tel" id="tel" placeholder="Tu teléfono"><br>
+        <h3>Datos del pastel</h3>
+        <p>Elige tu sabor</p>
+        <input type="checkbox" name="s1" id="s1">
+        <label for="s1">Chocolate</label>
+        <input type="checkbox" name="s2" id="s2">
+        <label for="s2">Fresa</label>
+        <input type="checkbox" name="s3" id="s3">
+        <label for="s3">Vainilla</label>
+        <input type="checkbox" name="s4" id="s4">
+        <label for="s4">Limon</label>
+
+        <p>Elige tus adornos</p>
+        <input type="checkbox" name="a1" id="a1">
+        <label for="a1">Vela decorativa</label>
+        <input type="checkbox" name="a2" id="a2">
+        <label for="a2">Flores</label>
+        <input type="checkbox" name="a3" id="a3">
+        <label for="a3">Tarjeta de felicitaciones</label>
+        <input type="checkbox" name="a4" id="a4">
+        <label for="a4">Dulces</label>
+        <br><br>
+
+        <label for="obser">Descripción general del pastel</label><br>
+        <textarea name="obser" id="obser" cols="30" rows="5"></textarea>
+        <br>
+        <input type="reset" value="Reiniciar">
+        <input type="submit" value="Realizar pedido">
+    </form>
+    <br>
+    <hr>
+    <footer>
+        <p>®Pasteleria Pastelaxia <br>
+        Av. Domingo Rubí Nte. 354B, Primer Cuadro, 80000 Culiacán Rosales, Sin. <br>
+        6673997074 <br>
+        Horarios de atención: Lunes a Domingos 7:00am - 4:00pm</p>
+    </footer>
+</body>
+</html>
